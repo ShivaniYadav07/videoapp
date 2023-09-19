@@ -14,6 +14,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
       top={"4"}
       right={"4"}
       onClick={toggleColorMode}
+      zIndex={"overlay"}
       icon={<SwitchIcon />}
       {...props}
     />
