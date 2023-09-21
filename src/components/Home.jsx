@@ -52,28 +52,28 @@ const Home = () => {
       showArrows={false}
     >
       <Box w="full" h={'100vh'}>
-        <Image src={p1} />
+        <Image src={p1} h="full" w="full" objectFit={'cover'} />
 
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
             WATCH THE FUTURE
             </Heading>
       </Box>
       <Box w="full" h={'100vh'}>
-        <Image src={p2} />
+        <Image src={p2} h="full" w="full" objectFit={'cover'} />
 
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
             WATCH THE FUTURE
             </Heading>
       </Box>
       <Box w="full" h={'100vh'}>
-        <Image src={p3} />
+        <Image src={p3} h="full" w="full" objectFit={'cover'} />
 
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
             WATCH THE FUTURE
             </Heading>
       </Box>
       <Box w="full" h={'100vh'}>
-        <Image src={p4} />
+        <Image src={p4} h="full" w="full" objectFit={'cover'} />
 
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
             WATCH THE FUTURE
